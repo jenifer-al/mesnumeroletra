@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>MES DE NÚMERO A LETRA</title>
+</head>
+<body class="container w-4/5 mx-auto  bg-linear-to-r from-cyan-200  to-cyan-50  " >
+
+    <header class=" relative overflow-hidden mb-8 border-dashed border-cyan-900 rounded-3xl mt-1 py-25  bg-[url(imagenes/retulo.png)] bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-[180px]"
+        style="border-width: 15px;background-clip: padding-box;   ">
+
+        
+        <h1 class="  relative z-10  text-center text-4xl text-cyan-900  font-black sm:text-5xl"
+        
+         style="text-shadow: 0 4px 12px rgba(255,255,255,1), 0 2px 4px rgba(255,255,255,0.9);" >MES DE NÚMERO A LETRA</h1>
+
+
+
+
+
+    </header>
+
+
+    <main class=""  >
+
+
+         
+ 
+
+
+
+       
+        <details class="mb-20 ml-5">
+            <summary class="  bg-linear-to-r from-cyan-400  to-cyan-200  text-cyan-700 font-black rounded-2xl ">Ejercicio 5.1. Mes de número a letra</summary>
+
+            <p class="ml-2">
+                Haz un programa que:
+
+            </p>   
+
+
+                <ol class="list-decimal ml-15 ">
+
+                    <li>Guarde los meses del año en un array
+                        (dejando la primera posición null para que el número del maes se corresponda )
+
+                    </li>
+
+                    <li>Pregunte al usuario/a un mes entre 1 y 12</li>
+                    <li>Muestre el siguiente mensaje «El mes x se corresponde con xxx,»  </li>
+
+
+
+                </ol>
+
+
+        </details>
+
+
+         
+        <div class="  border-cyan-600 border-solid border-2 w-5/6 p-4 rounded-3xl  ml-15   bg-linear-to-r from-cyan-400  to-cyan-200  " >
+        
+            <div class="flex items-center justify-between w-full">
+
+            <label  class="mr-2  text-cyan-700 font-black   ">señala un mes del año: </label> 
+
+            <select class="mr-2 text-cyan-700 font-black text-center bg-linear-to-r from-cyan-400  to-cyan-200  border-2  border-solid rounded-3xl cursor-pointer hover:bg-linear-to-r  hover:from-green-400 hover:to-green-100"   id="meses"  name="meses">
+
+                <option  value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+
+            </select>
+
+           
+
+               <button class="border-3 rounded-3xl bg-linear-to-r from-cyan-300  to-cyan-100  border-solid  border-cyan-800  px-3 
+               
+                text-cyan-600 font-black  transition-all duration-300 cursor-pointer  hover:bg-linear-to-r  hover:from-green-300 hover:to-green-200 "  
+
+
+                type="button" onclick="mostrar()">Mostrar</button>
+
+
+                <p class="  border-cyan-600 border-solid border-2 rounded-3xl p-2 w-1/4 ml-5  text-cyan-700 font-black  " id="resultado"></p>    
+
+
+
+          </div>
+
+       
+
+              
+
+
+
+
+       
+    </main>
+
+    <footer ></footer>
+     
+
+     <script src="js/mesnumero.js"></script>
+</body>
+</html>
